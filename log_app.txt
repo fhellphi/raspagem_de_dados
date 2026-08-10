@@ -1,0 +1,26 @@
+DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: AgentMyorder.__init__() missing 4 required positional arguments: 'email_login', 'email_pass', 'smtp_server', and 'smtp_port'DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: AgentMyorder.__init__() missing 4 required positional arguments: 'email_login', 'email_pass', 'smtp_server', and 'smtp_port'DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: AgentMyorder.__init__() missing 4 required positional arguments: 'email_login', 'email_pass', 'smtp_server', and 'smtp_port'DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: AgentMyorder.__init__() missing 4 required positional arguments: 'email_login', 'email_pass', 'smtp_server', and 'smtp_port'DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: AgentMyorder.__init__() missing 4 required positional arguments: 'email_login', 'email_pass', 'smtp_server', and 'smtp_port'DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: AgentMyorder.__init__() missing 4 required positional arguments: 'email_login', 'email_pass', 'smtp_server', and 'smtp_port'DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: AgentMyorder.__init__() missing 4 required positional arguments: 'email_login', 'email_pass', 'smtp_server', and 'smtp_port'DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: AgentMyorder.__init__() missing 4 required positional arguments: 'email_login', 'email_pass', 'smtp_server', and 'smtp_port'DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: AgentMyorder.__init__() missing 4 required positional arguments: 'email_login', 'email_pass', 'smtp_server', and 'smtp_port'DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: AgentMyorder.__init__() missing 4 required positional arguments: 'email_login', 'email_pass', 'smtp_server', and 'smtp_port'DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: "None of [Index([''], dtype='str')] are in the [columns]"DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: "['staus'] not in index"DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: "['staus'] not in index"DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: 'DataFrame' object has no attribute 'to_htlm'DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: 'DataFrame' object has no attribute 'to_htlm'DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: 'AgentMyorder' object has no attribute 'tabela_html'DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: could not convert string to float: 'OFFLINE'DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: np.True_DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: float() argument must be a string or a real number, not 'datetime.datetime'DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: float() argument must be a string or a real number, not 'datetime.datetime'DATA/HORA: 2026-08-07 15:06:29.158912. ERRO NA EXECUCAO DO METODO call_agent. ERRO: float() argument must be a string or a real number, not 'datetime.datetime'DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: float() argument must be a string or a real number, not 'datetime.datetime'DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: float() argument must be a string or a real number, not 'datetime.datetime'
+DATA/HORA: 2026-08-07 15:10:22.077255
+MÉTODO: start_app
+ERRO: int() argument must be a string, a bytes-like object or a real number, not 'datetime.datetime'
+--------------------------------------------------------------------------------
+
+DATA/HORA: 2026-08-07 15:12:15.579361
+MÉTODO: start_app
+ERRO: int() argument must be a string, a bytes-like object or a real number, not 'datetime.datetime'
+--------------------------------------------------------------------------------
+
+DATA/HORA: 2026-08-07 15:13:48.270072
+MÉTODO: start_app
+ERRO: int() argument must be a string, a bytes-like object or a real number, not 'type'
+--------------------------------------------------------------------------------
+
+DATA/HORA: 2026-08-07 15:14:08.388470
+MÉTODO: start_app
+ERRO: int() argument must be a string, a bytes-like object or a real number, not 'module'
+--------------------------------------------------------------------------------
+
+DATA/HORA: 2026-08-07 15:14:26.233130
+MÉTODO: start_app
+ERRO: int() argument must be a string, a bytes-like object or a real number, not 'module'
+--------------------------------------------------------------------------------
+DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: 'status'DATA/HORA: <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO call_agent. ERRO: 'status'

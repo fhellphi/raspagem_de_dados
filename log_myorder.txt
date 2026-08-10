@@ -1,0 +1,111 @@
+
+ DATRA/HORA = <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO get_info. ERRO: object of type 'WebElement' has no len()
+ DATRA/HORA = <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO get_info. ERRO: object of type 'WebElement' has no len()
+ DATRA/HORA = <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO get_info. ERRO: list index out of range
+ DATRA/HORA = <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO get_info. ERRO: list index out of range
+ DATRA/HORA = <class 'datetime.datetime'>. ERRO NA EXECUCAO DO METODO get_info. ERRO: list index out of range
+ DATRA/HORA = 2026-08-07 11:03:13.967901. ERRO NA EXECUCAO DO METODO get_info. ERRO: Message: 
+
+ DATRA/HORA = 2026-08-07 11:04:23.978389. ERRO NA EXECUCAO DO METODO get_info. ERRO: Message: 
+
+ DATRA/HORA = 2026-08-07 11:11:35.854068. ERRO NA EXECUCAO DO METODO get_info. ERRO: Message: element not interactable
+  (Session info: chrome=151.0.7922.75); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6cd4a8935+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff6cd4a8990+14d40]
+	chromedriver!(No symbol) [0x7ff6ccfd58e6]
+	chromedriver!(No symbol) [0x7ff6cd0323a4]
+	chromedriver!(No symbol) [0x7ff6cd024fb8]
+	chromedriver!(No symbol) [0x7ff6cd0595ba]
+	chromedriver!(No symbol) [0x7ff6cd024836]
+	chromedriver!(No symbol) [0x7ff6cd07e4ab]
+	chromedriver!(No symbol) [0x7ff6cd02308c]
+	chromedriver!(No symbol) [0x7ff6cd023fb3]
+	chromedriver!GetHandleVerifier [0x7ff6cdade5fb+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff6cdad8b02+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff6cdafe39e+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff6cd4c5d6e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff6cd4ce51c+3a8cc]
+	chromedriver!GetHandleVerifier [0x7ff6cd4b2844+1ebf4]
+	chromedriver!GetHandleVerifier [0x7ff6cd4b29d4+1ed84]
+	chromedriver!GetHandleVerifier [0x7ff6cd495d07+20b7]
+	KERNEL32!BaseThreadInitThunk [0x7ffaed30ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffaedbcad6c+2c]
+
+ DATRA/HORA = 2026-08-07 11:13:12.331211. ERRO NA EXECUCAO DO METODO get_info. ERRO: Message: element not interactable
+  (Session info: chrome=151.0.7922.75); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6cd4a8935+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff6cd4a8990+14d40]
+	chromedriver!(No symbol) [0x7ff6ccfd58e6]
+	chromedriver!(No symbol) [0x7ff6cd0323a4]
+	chromedriver!(No symbol) [0x7ff6cd024fb8]
+	chromedriver!(No symbol) [0x7ff6cd0595ba]
+	chromedriver!(No symbol) [0x7ff6cd024836]
+	chromedriver!(No symbol) [0x7ff6cd07e4ab]
+	chromedriver!(No symbol) [0x7ff6cd02308c]
+	chromedriver!(No symbol) [0x7ff6cd023fb3]
+	chromedriver!GetHandleVerifier [0x7ff6cdade5fb+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff6cdad8b02+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff6cdafe39e+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff6cd4c5d6e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff6cd4ce51c+3a8cc]
+	chromedriver!GetHandleVerifier [0x7ff6cd4b2844+1ebf4]
+	chromedriver!GetHandleVerifier [0x7ff6cd4b29d4+1ed84]
+	chromedriver!GetHandleVerifier [0x7ff6cd495d07+20b7]
+	KERNEL32!BaseThreadInitThunk [0x7ffaed30ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffaedbcad6c+2c]
+
+ DATRA/HORA = 2026-08-08 14:11:07.128557. ERRO NA EXECUCAO DO METODO get_info. ERRO: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=151.0.7922.76)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a2db8935+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff6a2db8990+14d40]
+	chromedriver!(No symbol) [0x7ff6a28e5afd]
+	chromedriver!(No symbol) [0x7ff6a28e28c9]
+	chromedriver!(No symbol) [0x7ff6a28d2d01]
+	chromedriver!(No symbol) [0x7ff6a28d4b6f]
+	chromedriver!(No symbol) [0x7ff6a28d32a3]
+	chromedriver!(No symbol) [0x7ff6a28d2a6b]
+	chromedriver!(No symbol) [0x7ff6a28d2721]
+	chromedriver!(No symbol) [0x7ff6a28d03d7]
+	chromedriver!(No symbol) [0x7ff6a28d0b52]
+	chromedriver!(No symbol) [0x7ff6a28e9da6]
+	chromedriver!(No symbol) [0x7ff6a298f2c4]
+	chromedriver!(No symbol) [0x7ff6a29695ba]
+	chromedriver!(No symbol) [0x7ff6a298e4ab]
+	chromedriver!(No symbol) [0x7ff6a293308c]
+	chromedriver!(No symbol) [0x7ff6a2933fb3]
+	chromedriver!GetHandleVerifier [0x7ff6a33ee5fb+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff6a33e8b02+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff6a340e39e+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff6a2dd5d6e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff6a2dde51c+3a8cc]
+	chromedriver!GetHandleVerifier [0x7ff6a2dc2844+1ebf4]
+	chromedriver!GetHandleVerifier [0x7ff6a2dc29d4+1ed84]
+	chromedriver!GetHandleVerifier [0x7ff6a2da5d07+20b7]
+	KERNEL32!BaseThreadInitThunk [0x7fffee45ccb7+17]
+	ntdll!RtlUserThreadStart [0x7fffef0aad6c+2c]
+
+ DATRA/HORA = 2026-08-10 09:19:25.761793. ERRO NA EXECUCAO DO METODO get_info. ERRO: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=151.0.7922.76)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff783e88935+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff783e88990+14d40]
+	chromedriver!(No symbol) [0x7ff7839b5afd]
+	chromedriver!(No symbol) [0x7ff78398c9f2]
+	chromedriver!(No symbol) [0x7ff783a40966]
+	chromedriver!(No symbol) [0x7ff783a5dd92]
+	chromedriver!(No symbol) [0x7ff783a0308c]
+	chromedriver!(No symbol) [0x7ff783a03fb3]
+	chromedriver!GetHandleVerifier [0x7ff7844be5fb+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff7844b8b02+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff7844de39e+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff783ea5d6e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff783eae51c+3a8cc]
+	chromedriver!GetHandleVerifier [0x7ff783e92844+1ebf4]
+	chromedriver!GetHandleVerifier [0x7ff783e929d4+1ed84]
+	chromedriver!GetHandleVerifier [0x7ff783e75d07+20b7]
+	KERNEL32!BaseThreadInitThunk [0x7fffee45ccb7+17]
+	ntdll!RtlUserThreadStart [0x7fffef0aad6c+2c]
