@@ -44,10 +44,13 @@ class App:
                                     self.email_login,
                                     self.email_pass,
                                     self.smtp_server,
-                                    self.smtp_port
+                                    self.smtp_port,
+                                    self.ip_db,
+                                    self.pass_bd
                                 )    
             myorder.get_info(time)
             myorder.tratar_dados()
+            myorder.insert_db()
             myorder.dispara_email()
             
         except Exception as err:
@@ -57,8 +60,10 @@ class App:
                 log.write(f'DATA/HORA: {datetime}. ERRO NA EXECUCAO DO METODO call_agent. ERRO: {err}')
                 
     def start_app(self):
+        
             print( f"[{datetime.now()}] " f"Aplicação iniciada." )
-            print( f"Intervalo configurado: " f"{self.tempo_exec} segundos." ) 
+            print( f"Intervalo configurado: " f"{self.tempo_exec} segundos." )
+             
             while True: 
                 try:
                     hora_execucao = datetime.now().timestamp()

@@ -109,3 +109,49 @@ Stacktrace:
 	chromedriver!GetHandleVerifier [0x7ff783e75d07+20b7]
 	KERNEL32!BaseThreadInitThunk [0x7fffee45ccb7+17]
 	ntdll!RtlUserThreadStart [0x7fffef0aad6c+2c]
+
+ DATRA/HORA = 2026-08-10 14:52:23.767938. ERRO NA EXECUCAO DO METODO get_info. ERRO: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=151.0.7922.76)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff643668935+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff643668990+14d40]
+	chromedriver!(No symbol) [0x7ff643195afd]
+	chromedriver!(No symbol) [0x7ff64316c9f2]
+	chromedriver!(No symbol) [0x7ff643220966]
+	chromedriver!(No symbol) [0x7ff64323dd92]
+	chromedriver!(No symbol) [0x7ff6431e308c]
+	chromedriver!(No symbol) [0x7ff6431e3fb3]
+	chromedriver!GetHandleVerifier [0x7ff643c9e5fb+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff643c98b02+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff643cbe39e+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff643685d6e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff64368e51c+3a8cc]
+	chromedriver!GetHandleVerifier [0x7ff643672844+1ebf4]
+	chromedriver!GetHandleVerifier [0x7ff6436729d4+1ed84]
+	chromedriver!GetHandleVerifier [0x7ff643655d07+20b7]
+	KERNEL32!BaseThreadInitThunk [0x7fffee45ccb7+17]
+	ntdll!RtlUserThreadStart [0x7fffef0aad6c+2c]
+
+ DATRA/HORA = 2026-08-10 16:08:51.694495. ERRO NA EXECUCAO DO METODO get_info. ERRO: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=151.0.7922.76)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff79c2d8935+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff79c2d8990+14d40]
+	chromedriver!(No symbol) [0x7ff79be05afd]
+	chromedriver!(No symbol) [0x7ff79bddc9f2]
+	chromedriver!(No symbol) [0x7ff79be90966]
+	chromedriver!(No symbol) [0x7ff79beadd92]
+	chromedriver!(No symbol) [0x7ff79be5308c]
+	chromedriver!(No symbol) [0x7ff79be53fb3]
+	chromedriver!GetHandleVerifier [0x7ff79c90e5fb+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff79c908b02+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff79c92e39e+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff79c2f5d6e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff79c2fe51c+3a8cc]
+	chromedriver!GetHandleVerifier [0x7ff79c2e2844+1ebf4]
+	chromedriver!GetHandleVerifier [0x7ff79c2e29d4+1ed84]
+	chromedriver!GetHandleVerifier [0x7ff79c2c5d07+20b7]
+	KERNEL32!BaseThreadInitThunk [0x7fffee45ccb7+17]
+	ntdll!RtlUserThreadStart [0x7fffef0aad6c+2c]

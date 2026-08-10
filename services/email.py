@@ -3,18 +3,28 @@ from email.message import EmailMessage
 from datetime import datetime
 
 
-def enviar_email(assunto, msg, destinatario, email_login,email_pass, smtp_server, smtp_port):
-    email = EmailMessage()
+def enviar_email(assunto, msg, destinatario, email_login,email_pass, smtp_server, smtp_port, anexos=None):
     
+    
+    email = EmailMessage()
     email["From"] = email_login
     email["To"] = destinatario
     email["Subject"] = assunto
     email.set_content("Seu cliente de e-mail não suporta HTML.")
     email.add_alternative(msg, subtype="html")
     
+    if anexos:
+        for anexo in anexos:
+            email.add_attachment(
+                anexo['dados'],
+            maintype=anexo["maintype"],
+            subtype=anexo["subtype"],
+            filename=anexo["filename"]
+        )
+             
     try:
         
-        with smtplib.SMTP(smtp_server, smtp_port) as smtp:
+        with smtplib.SMTP(smtp_server, smtp_port ) as smtp:
             smtp.starttls()
             smtp.login(email_login, email_pass)
             smtp.send_message(email)

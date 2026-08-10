@@ -27,7 +27,6 @@ SMTP_PORT = os.getenv('SMTP_PORT')
 EMAIL = os.getenv('EMAIL')
 EMAIL_PASS = os.getenv('EMAIL_PASS')
 
-print(URL_HOST, DB_KEY)
   
 ## GERENCIAMENTO DE EXECUCOES
 TIME_EXEC = os.getenv('TIME_EXEC')
@@ -43,7 +42,9 @@ server = App(
                 EMAIL_PASS,
                 SMTP_SERVER,
                 SMTP_PORT,
-                tempo_tratado
+                tempo_tratado,
+                URL_HOST,
+                DB_KEY
             )
 server.start_app()
 

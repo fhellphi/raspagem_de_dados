@@ -5,6 +5,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as Ec
 from datetime import datetime
 from services.email import enviar_email
+from io import BytesIO
+from services.database import Supabase
 import pandas as pd
 
 
@@ -43,7 +45,7 @@ class AgentMyorder:
         self.lojas_versao = []
         self.html_lojas_versao = ''
         self.maior_versao_disponivel = ''
-        
+
     def get_info(self, time):
         
         navegador = webdriver.Chrome()
@@ -121,6 +123,37 @@ class AgentMyorder:
          
     def dispara_email(self):
         
+        df = pd.DataFrame(self.listagem_lojas)
+        maior_versao = df['versao'].max()
+        
+        df_offiline = df.loc [
+            df['status'] == 'OFFLINE',
+            ['empresa', 'uf', 'status', 'ultima_atualizacao', 'versao']
+        ]
+        df_versao = df.loc[
+            df['versao'] < maior_versao,
+            ['loja', 'uf', 'status', 'ultima_atualizacao', 'versao']
+        ]
+        
+        arquivo_offline = BytesIO()
+        with pd.ExcelWriter( arquivo_offline, engine='openpyxl') as writer:
+            df_offiline.to_excel(
+                writer,
+                index=False,
+                sheet_name='Lojas Offiline'
+            )
+        excel_offline = arquivo_offline.getvalue()
+        
+        arquivo_versao = BytesIO()
+        with pd.ExcelWriter(arquivo_versao, engine='openpyxl') as writer:
+            df_versao.to_excel(
+                writer,
+                index=False,
+                sheet_name='Lojas Desatualizadas'
+            )
+        excel_versao = arquivo_versao.getvalue()
+        
+        
         mensagem = f"""
         <html>
 
@@ -184,7 +217,24 @@ class AgentMyorder:
 
         </html>
         """
-                        
+        
+        anexos = [
+
+                {
+                    "dados": excel_offline,
+                    "maintype": "application",
+                    "subtype": "vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "filename": "relatorio_lojas_offline.xlsx"
+                },
+
+                {
+                    "dados": excel_versao,
+                    "maintype": "application",
+                    "subtype": "vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "filename": "relatorio_versoes_desatualizadas.xlsx"
+                }
+
+            ]         
         enviar_email(
                         'Monitoramento Plataforma MyOrder',
                         mensagem,
@@ -192,7 +242,8 @@ class AgentMyorder:
                         self.email_login, 
                         self.email_pass,
                         self.smtp_server,
-                        self.smtp_port
+                        self.smtp_port,
+                        anexos=anexos
                     )
         
     def tratar_dados(self):
@@ -204,7 +255,7 @@ class AgentMyorder:
             ['loja', 'uf', 'status', 'ultima_atualizacao', 'versao']
         ]
         
-        
+
                
         self.lojas_offline = offiline
         
@@ -215,13 +266,13 @@ class AgentMyorder:
                 classes="tabela"
         )
         
-        df['versao_num'] = df['versao'].astype(float)
+        df['versao'] = df['versao'].astype(float)
 
-        maior_versao = df['versao_num'].max()
+        maior_versao = df['versao'].max()
         self.maior_versao_disponivel = maior_versao
         
         maior_versao_tratado = df.loc[
-            df['versao_num'] < maior_versao,
+            df['versao'] < maior_versao,
             ['loja', 'uf', 'status', 'ultima_atualizacao', 'versao']
         ]
         
@@ -235,5 +286,16 @@ class AgentMyorder:
         
         # print(self.lojas_offline)
                 
-    def post_bd(self, ip_db, pass_db):
-        pass
+    def insert_db(self):
+        try:
+            supabase_client = Supabase(self.ip_db, self.pass_bd)
+            supabase_client.insert("GIRAFFAS_HOMOLOG","MONITORAMENTO_GLINKS", self.listagem_lojas)
+            print('Insert no banco realizado com sucesso')
+            
+        except Exception as err:
+            print('Erro ao executar o metodo inser_db do agent myorder')
+            print(err)
+            
+    def select_db(self):
+        supabase_client = Supabase(self.ip_db, self.pass_bd)
+        supabase_client.select('GIRAFFAS_HOMOLOG','MONITORAMENTO_GLINKS')
