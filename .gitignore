@@ -1,2 +1,7 @@
 .env
 teste.py
+__pycache__
+./services/__pycache__
+./agents/__pycache__
+teste.json
+.venv

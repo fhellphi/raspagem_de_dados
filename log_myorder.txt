@@ -155,3 +155,455 @@ Stacktrace:
 	chromedriver!GetHandleVerifier [0x7ff79c2c5d07+20b7]
 	KERNEL32!BaseThreadInitThunk [0x7fffee45ccb7+17]
 	ntdll!RtlUserThreadStart [0x7fffef0aad6c+2c]
+ERRO: metodo get_pedidos sem url para realizar monitaramento dos pedidos 
+ DATRA/HORA = 2026-08-12 10:29:50.816530. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: module 'selenium.webdriver.support.expected_conditions' has no attribute 'presen'
+ DATRA/HORA = 2026-08-12 10:30:19.354262. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: module 'selenium.webdriver.support.expected_conditions' has no attribute 'presen'
+ DATRA/HORA = 2026-08-12 10:40:59.514560. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: Message: Compound class names are not allowed.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+
+ DATRA/HORA = 2026-08-12 10:43:05.813892. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=151.0.7922.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6395fabb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff6395fac10+15210]
+	chromedriver!(No symbol) [0x7ff639125d6d]
+	chromedriver!(No symbol) [0x7ff6391115c2]
+	chromedriver!(No symbol) [0x7ff6391374a1]
+	chromedriver!(No symbol) [0x7ff6391b1320]
+	chromedriver!(No symbol) [0x7ff6391ce4f2]
+	chromedriver!(No symbol) [0x7ff6391737cc]
+	chromedriver!(No symbol) [0x7ff6391746f3]
+	chromedriver!GetHandleVerifier [0x7ff639c1b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff639c15ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff639c3bcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff639618ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff63962147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff639604d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff639604ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff6395e7d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffc68d9ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffc6a44ad6c+2c]
+
+ DATRA/HORA = 2026-08-12 10:46:57.412428. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: module 'selenium.webdriver.support.expected_conditions' has no attribute 'presen'
+ DATRA/HORA = 2026-08-12 10:54:16.027678. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: Message: element not interactable
+  (Session info: chrome=151.0.7922.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6395fabb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff6395fac10+15210]
+	chromedriver!(No symbol) [0x7ff639125b56]
+	chromedriver!(No symbol) [0x7ff63917c099]
+	chromedriver!(No symbol) [0x7ff639179c5a]
+	chromedriver!(No symbol) [0x7ff6391a9d0a]
+	chromedriver!(No symbol) [0x7ff639174f76]
+	chromedriver!(No symbol) [0x7ff6391cec0b]
+	chromedriver!(No symbol) [0x7ff6391737cc]
+	chromedriver!(No symbol) [0x7ff6391746f3]
+	chromedriver!GetHandleVerifier [0x7ff639c1b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff639c15ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff639c3bcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff639618ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff63962147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff639604d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff639604ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff6395e7d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffc68d9ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffc6a44ad6c+2c]
+
+ DATRA/HORA = 2026-08-12 10:55:31.970316. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: Message: element not interactable
+  (Session info: chrome=151.0.7922.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6395fabb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff6395fac10+15210]
+	chromedriver!(No symbol) [0x7ff639125b56]
+	chromedriver!(No symbol) [0x7ff63917c099]
+	chromedriver!(No symbol) [0x7ff639179c5a]
+	chromedriver!(No symbol) [0x7ff6391a9d0a]
+	chromedriver!(No symbol) [0x7ff639174f76]
+	chromedriver!(No symbol) [0x7ff6391cec0b]
+	chromedriver!(No symbol) [0x7ff6391737cc]
+	chromedriver!(No symbol) [0x7ff6391746f3]
+	chromedriver!GetHandleVerifier [0x7ff639c1b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff639c15ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff639c3bcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff639618ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff63962147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff639604d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff639604ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff6395e7d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffc68d9ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffc6a44ad6c+2c]
+
+ DATRA/HORA = 2026-08-12 10:59:37.664654. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: Message: element not interactable
+  (Session info: chrome=151.0.7922.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6395fabb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff6395fac10+15210]
+	chromedriver!(No symbol) [0x7ff639125b56]
+	chromedriver!(No symbol) [0x7ff63917c099]
+	chromedriver!(No symbol) [0x7ff639179c5a]
+	chromedriver!(No symbol) [0x7ff6391a9d0a]
+	chromedriver!(No symbol) [0x7ff639174f76]
+	chromedriver!(No symbol) [0x7ff6391cec0b]
+	chromedriver!(No symbol) [0x7ff6391737cc]
+	chromedriver!(No symbol) [0x7ff6391746f3]
+	chromedriver!GetHandleVerifier [0x7ff639c1b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff639c15ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff639c3bcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff639618ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff63962147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff639604d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff639604ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff6395e7d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffc68d9ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffc6a44ad6c+2c]
+
+ DATRA/HORA = 2026-08-12 11:42:50.761124. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=151.0.7922.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6d2b7abb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff6d2b7ac10+15210]
+	chromedriver!(No symbol) [0x7ff6d26a5d6d]
+	chromedriver!(No symbol) [0x7ff6d26915c2]
+	chromedriver!(No symbol) [0x7ff6d26b74a1]
+	chromedriver!(No symbol) [0x7ff6d2731320]
+	chromedriver!(No symbol) [0x7ff6d274e4f2]
+	chromedriver!(No symbol) [0x7ff6d26f37cc]
+	chromedriver!(No symbol) [0x7ff6d26f46f3]
+	chromedriver!GetHandleVerifier [0x7ff6d319b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff6d3195ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff6d31bbcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff6d2b98ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff6d2ba147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff6d2b84d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff6d2b84ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff6d2b67d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffc68d9ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffc6a44ad6c+2c]
+
+ DATRA/HORA = 2026-08-12 11:51:01.022391. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=151.0.7922.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6d2b7abb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff6d2b7ac10+15210]
+	chromedriver!(No symbol) [0x7ff6d26a5d6d]
+	chromedriver!(No symbol) [0x7ff6d26915c2]
+	chromedriver!(No symbol) [0x7ff6d26b74a1]
+	chromedriver!(No symbol) [0x7ff6d2731320]
+	chromedriver!(No symbol) [0x7ff6d274e4f2]
+	chromedriver!(No symbol) [0x7ff6d26f37cc]
+	chromedriver!(No symbol) [0x7ff6d26f46f3]
+	chromedriver!GetHandleVerifier [0x7ff6d319b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff6d3195ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff6d31bbcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff6d2b98ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff6d2ba147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff6d2b84d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff6d2b84ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff6d2b67d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffc68d9ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffc6a44ad6c+2c]
+
+ DATRA/HORA = 2026-08-12 13:38:46.485734. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=151.0.7922.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff60ae4abb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff60ae4ac10+15210]
+	chromedriver!(No symbol) [0x7ff60a975d6d]
+	chromedriver!(No symbol) [0x7ff60a9615c2]
+	chromedriver!(No symbol) [0x7ff60a9874a1]
+	chromedriver!(No symbol) [0x7ff60aa01320]
+	chromedriver!(No symbol) [0x7ff60aa1e4f2]
+	chromedriver!(No symbol) [0x7ff60a9c37cc]
+	chromedriver!(No symbol) [0x7ff60a9c46f3]
+	chromedriver!GetHandleVerifier [0x7ff60b46b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff60b465ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff60b48bcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff60ae68ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff60ae7147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff60ae54d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff60ae54ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff60ae37d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffc68d9ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffc6a44ad6c+2c]
+
+ DATRA/HORA = 2026-08-12 13:51:54.150461. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: function missing required argument 'year' (pos 1)
+ DATRA/HORA = 2026-08-12 13:52:13.180063. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: function missing required argument 'year' (pos 1)
+ DATRA/HORA = 2026-08-12 13:55:56.337485. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: 'str' object has no attribute 'strftime'
+ DATRA/HORA = 2026-08-12 13:58:33.282374. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: unsupported operand type(s) for -: 'datetime.datetime' and 'int'
+ DATRA/HORA = 2026-08-12 14:20:17.265716. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: object of type 'WebElement' has no len()
+ DATRA/HORA = 2026-08-12 14:23:16.941332. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: 'int' object is not iterable
+ DATRA/HORA = 2026-08-12 15:02:53.747069. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=151.0.7922.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff60ae4abb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff60ae4ac10+15210]
+	chromedriver!(No symbol) [0x7ff60a975d6d]
+	chromedriver!(No symbol) [0x7ff60a97dcd1]
+	chromedriver!(No symbol) [0x7ff60a980c85]
+	chromedriver!(No symbol) [0x7ff60a980d4f]
+	chromedriver!(No symbol) [0x7ff60a9cc51c]
+	chromedriver!(No symbol) [0x7ff60a9f9d0a]
+	chromedriver!(No symbol) [0x7ff60a9c4f76]
+	chromedriver!(No symbol) [0x7ff60aa1ec0b]
+	chromedriver!(No symbol) [0x7ff60a9c37cc]
+	chromedriver!(No symbol) [0x7ff60a9c46f3]
+	chromedriver!GetHandleVerifier [0x7ff60b46b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff60b465ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff60b48bcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff60ae68ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff60ae7147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff60ae54d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff60ae54ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff60ae37d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffc68d9ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffc6a44ad6c+2c]
+
+ DATRA/HORA = 2026-08-12 15:07:22.209582. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=151.0.7922.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff60ae4abb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff60ae4ac10+15210]
+	chromedriver!(No symbol) [0x7ff60a975d6d]
+	chromedriver!(No symbol) [0x7ff60a97dcd1]
+	chromedriver!(No symbol) [0x7ff60a980c85]
+	chromedriver!(No symbol) [0x7ff60a980d4f]
+	chromedriver!(No symbol) [0x7ff60a9cc51c]
+	chromedriver!(No symbol) [0x7ff60a9f9d0a]
+	chromedriver!(No symbol) [0x7ff60a9c4f76]
+	chromedriver!(No symbol) [0x7ff60aa1ec0b]
+	chromedriver!(No symbol) [0x7ff60a9c37cc]
+	chromedriver!(No symbol) [0x7ff60a9c46f3]
+	chromedriver!GetHandleVerifier [0x7ff60b46b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff60b465ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff60b48bcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff60ae68ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff60ae7147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff60ae54d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff60ae54ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff60ae37d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffc68d9ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffc6a44ad6c+2c]
+
+ DATRA/HORA = 2026-08-12 15:19:04.857105. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=151.0.7922.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff60ae4abb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff60ae4ac10+15210]
+	chromedriver!(No symbol) [0x7ff60a975d6d]
+	chromedriver!(No symbol) [0x7ff60a97dcd1]
+	chromedriver!(No symbol) [0x7ff60a980c85]
+	chromedriver!(No symbol) [0x7ff60a980d4f]
+	chromedriver!(No symbol) [0x7ff60a9d0a0a]
+	chromedriver!(No symbol) [0x7ff60a9d158c]
+	chromedriver!(No symbol) [0x7ff60aa22027]
+	chromedriver!(No symbol) [0x7ff60aa1ec0b]
+	chromedriver!(No symbol) [0x7ff60a9c37cc]
+	chromedriver!(No symbol) [0x7ff60a9c46f3]
+	chromedriver!GetHandleVerifier [0x7ff60b46b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff60b465ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff60b48bcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff60ae68ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff60ae7147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff60ae54d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff60ae54ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff60ae37d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffc68d9ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffc6a44ad6c+2c]
+
+ DATRA/HORA = 2026-08-12 15:20:16.146565. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=151.0.7922.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff60ae4abb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff60ae4ac10+15210]
+	chromedriver!(No symbol) [0x7ff60a975d6d]
+	chromedriver!(No symbol) [0x7ff60a97dcd1]
+	chromedriver!(No symbol) [0x7ff60a980c85]
+	chromedriver!(No symbol) [0x7ff60a980d4f]
+	chromedriver!(No symbol) [0x7ff60a9d0a0a]
+	chromedriver!(No symbol) [0x7ff60a9d158c]
+	chromedriver!(No symbol) [0x7ff60aa22027]
+	chromedriver!(No symbol) [0x7ff60aa1ec0b]
+	chromedriver!(No symbol) [0x7ff60a9c37cc]
+	chromedriver!(No symbol) [0x7ff60a9c46f3]
+	chromedriver!GetHandleVerifier [0x7ff60b46b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff60b465ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff60b48bcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff60ae68ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff60ae7147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff60ae54d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff60ae54ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff60ae37d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffc68d9ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffc6a44ad6c+2c]
+
+ DATRA/HORA = 2026-08-12 15:26:51.281760. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=151.0.7922.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff60ae4abb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff60ae4ac10+15210]
+	chromedriver!(No symbol) [0x7ff60a975d6d]
+	chromedriver!(No symbol) [0x7ff60a9615c2]
+	chromedriver!(No symbol) [0x7ff60a9874a1]
+	chromedriver!(No symbol) [0x7ff60aa01320]
+	chromedriver!(No symbol) [0x7ff60aa1e4f2]
+	chromedriver!(No symbol) [0x7ff60a9c37cc]
+	chromedriver!(No symbol) [0x7ff60a9c46f3]
+	chromedriver!GetHandleVerifier [0x7ff60b46b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff60b465ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff60b48bcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff60ae68ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff60ae7147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff60ae54d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff60ae54ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff60ae37d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffc68d9ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffc6a44ad6c+2c]
+
+ DATRA/HORA = 2026-08-12 15:28:58.909472. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: Message: element not interactable
+  (Session info: chrome=151.0.7922.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a4dbabb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff7a4dbac10+15210]
+	chromedriver!(No symbol) [0x7ff7a48e5b56]
+	chromedriver!(No symbol) [0x7ff7a4942ad4]
+	chromedriver!(No symbol) [0x7ff7a49356f8]
+	chromedriver!(No symbol) [0x7ff7a4969d0a]
+	chromedriver!(No symbol) [0x7ff7a4934f76]
+	chromedriver!(No symbol) [0x7ff7a498ec0b]
+	chromedriver!(No symbol) [0x7ff7a49337cc]
+	chromedriver!(No symbol) [0x7ff7a49346f3]
+	chromedriver!GetHandleVerifier [0x7ff7a53db79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff7a53d5ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff7a53fbcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff7a4dd8ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff7a4de147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff7a4dc4d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff7a4dc4ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff7a4da7d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffc68d9ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffc6a44ad6c+2c]
+
+ DATRA/HORA = 2026-08-12 15:31:20.977585. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: Message: javascript error: rguments is not defined
+  (Session info: chrome=151.0.7922.137)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a4dbabb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff7a4dbac10+15210]
+	chromedriver!(No symbol) [0x7ff7a48e5d6d]
+	chromedriver!(No symbol) [0x7ff7a48edcd1]
+	chromedriver!(No symbol) [0x7ff7a48f101f]
+	chromedriver!(No symbol) [0x7ff7a498fe82]
+	chromedriver!(No symbol) [0x7ff7a4969d0a]
+	chromedriver!(No symbol) [0x7ff7a498ec0b]
+	chromedriver!(No symbol) [0x7ff7a49337cc]
+	chromedriver!(No symbol) [0x7ff7a49346f3]
+	chromedriver!GetHandleVerifier [0x7ff7a53db79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff7a53d5ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff7a53fbcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff7a4dd8ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff7a4de147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff7a4dc4d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff7a4dc4ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff7a4da7d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffc68d9ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffc6a44ad6c+2c]
+
+ DATRA/HORA = 2026-08-12 15:54:05.238886. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: Message: javascript error: rguments is not defined
+  (Session info: chrome=151.0.7922.137)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a4dbabb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff7a4dbac10+15210]
+	chromedriver!(No symbol) [0x7ff7a48e5d6d]
+	chromedriver!(No symbol) [0x7ff7a48edcd1]
+	chromedriver!(No symbol) [0x7ff7a48f101f]
+	chromedriver!(No symbol) [0x7ff7a498fe82]
+	chromedriver!(No symbol) [0x7ff7a4969d0a]
+	chromedriver!(No symbol) [0x7ff7a498ec0b]
+	chromedriver!(No symbol) [0x7ff7a49337cc]
+	chromedriver!(No symbol) [0x7ff7a49346f3]
+	chromedriver!GetHandleVerifier [0x7ff7a53db79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff7a53d5ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff7a53fbcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff7a4dd8ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff7a4de147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff7a4dc4d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff7a4dc4ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff7a4da7d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffc68d9ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffc6a44ad6c+2c]
+
+ DATRA/HORA = 2026-08-12 15:56:13.865035. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: 'NoneType' object has no attribute 'is_displayed'
+ DATRA/HORA = 2026-08-12 16:00:15.371861. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=151.0.7922.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a4dbabb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff7a4dbac10+15210]
+	chromedriver!(No symbol) [0x7ff7a48e5d6d]
+	chromedriver!(No symbol) [0x7ff7a48d15c2]
+	chromedriver!(No symbol) [0x7ff7a48f74a1]
+	chromedriver!(No symbol) [0x7ff7a4971320]
+	chromedriver!(No symbol) [0x7ff7a498e4f2]
+	chromedriver!(No symbol) [0x7ff7a49337cc]
+	chromedriver!(No symbol) [0x7ff7a49346f3]
+	chromedriver!GetHandleVerifier [0x7ff7a53db79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff7a53d5ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff7a53fbcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff7a4dd8ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff7a4de147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff7a4dc4d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff7a4dc4ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff7a4da7d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffc68d9ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffc6a44ad6c+2c]
+
+ DATRA/HORA = 2026-08-12 16:03:28.199281. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: presence_of_element_located() takes 1 positional argument but 2 were given
+ DATRA/HORA = 2026-08-12 16:06:16.358881. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: visibility_of_element_located() takes 1 positional argument but 2 were given
+ DATRA/HORA = 2026-08-12 16:07:25.852056. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: visibility_of_element_located() takes 1 positional argument but 2 were given
+ DATRA/HORA = 2026-08-12 16:08:36.031849. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: invisibility_of_element_located() takes 1 positional argument but 2 were given
+ DATRA/HORA = 2026-08-12 16:33:15.097633. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=151.0.7922.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6df9fabb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff6df9fac10+15210]
+	chromedriver!(No symbol) [0x7ff6df525d6d]
+	chromedriver!(No symbol) [0x7ff6df52dcd1]
+	chromedriver!(No symbol) [0x7ff6df530c85]
+	chromedriver!(No symbol) [0x7ff6df530d4f]
+	chromedriver!(No symbol) [0x7ff6df580a0a]
+	chromedriver!(No symbol) [0x7ff6df58158c]
+	chromedriver!(No symbol) [0x7ff6df5d2027]
+	chromedriver!(No symbol) [0x7ff6df5cec0b]
+	chromedriver!(No symbol) [0x7ff6df5737cc]
+	chromedriver!(No symbol) [0x7ff6df5746f3]
+	chromedriver!GetHandleVerifier [0x7ff6e001b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff6e0015ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff6e003bcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff6dfa18ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff6dfa2147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff6dfa04d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff6dfa04ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff6df9e7d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffc68d9ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffc6a44ad6c+2c]
+
+ DATRA/HORA = 2026-08-12 16:50:34.452751. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: [Errno 2] No such file or directory: 'Gestão de Pedidos - Painel.xlsx'
+ DATRA/HORA = 2026-08-12 16:51:39.434133. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: [Errno 2] No such file or directory: 'Gestão de Pedidos - Painel.xlsx'
+ DATRA/HORA = 2026-08-12 17:00:31.638918. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: expected <class 'openpyxl.styles.fills.Fill'>
+ DATRA/HORA = 2026-08-12 17:12:37.017334. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: expected <class 'openpyxl.styles.fills.Fill'>
+ DATRA/HORA = 2026-08-12 17:19:36.794522. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: expected <class 'openpyxl.styles.fills.Fill'>
+ DATRA/HORA = 2026-08-12 17:45:20.498819. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: 'descricao_erro'
+ DATRA/HORA = 2026-08-12 17:45:52.607593. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: 'descricao_erro'
+ DATRA/HORA = 2026-08-12 17:46:50.677554. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: 'Descrição do Erro'
+ DATRA/HORA = 2026-08-13 09:18:23.296730. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: 'Series' object has no attribute 'strftime'
+ DATRA/HORA = 2026-08-13 11:20:53.042395. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: 'float' object has no attribute 'time'
+ DATRA/HORA = 2026-08-13 11:53:56.078710. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: 'float' object has no attribute 'time'
+ DATRA/HORA = 2026-08-13 11:56:04.804589. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: 'float' object has no attribute 'time'
+ DATRA/HORA = 2026-08-13 11:56:27.058215. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: 'float' object has no attribute 'time'
+ DATRA/HORA = 2026-08-13 11:58:23.851366. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: 'float' object has no attribute 'time'
+ DATRA/HORA = 2026-08-13 11:58:38.549417. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: 'float' object has no attribute 'time'
+ DATRA/HORA = 2026-08-13 12:00:38.531190. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: 'int' object has no attribute 'time'
+ DATRA/HORA = 2026-08-13 12:01:58.396576. ERRO NA EXECUCAO DO METODO get_pedidos. ERRO: 'DataFrame' object has no attribute 'todict'

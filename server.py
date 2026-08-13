@@ -15,6 +15,7 @@ SENHA= os.getenv('SENHA')
 #CONFIGURACOES DE REQUISICAO
 BASE_URL= os.getenv('BASE_URL')
 URL_FINAL = os.getenv('URL_FINAL')
+URL_PEDIDOS = os.getenv('URL_PEDIDOS')
 
 # BANCO DE DADOS
 URL_HOST = os.getenv('URL_HOST')
@@ -29,8 +30,10 @@ EMAIL_PASS = os.getenv('EMAIL_PASS')
 
   
 ## GERENCIAMENTO DE EXECUCOES
-TIME_EXEC = os.getenv('TIME_EXEC')
-tempo_tratado = int(TIME_EXEC)
+TIME_EXEC_GCOMLINKS = os.getenv('TIME_EXEC_GCOMLINKS')
+TIME_EXEC_PEDIDOS = os.getenv('TIME_EXEC_PEDIDOS')
+tempo_tratado_gcomlinks = int(TIME_EXEC_GCOMLINKS)
+tempo_tratado_pedidos = int(TIME_EXEC_PEDIDOS) 
 
 server = App(
                 BASE_URL,
@@ -42,12 +45,13 @@ server = App(
                 EMAIL_PASS,
                 SMTP_SERVER,
                 SMTP_PORT,
-                tempo_tratado,
+                tempo_tratado_gcomlinks,
+                tempo_tratado_pedidos,
                 URL_HOST,
-                DB_KEY
+                DB_KEY,
+                URL_PEDIDOS
             )
-server.start_app()
 
-# tz5Nf9JIKj9q9cQb - server do supabase particular
-
+server.call_agent_myorder(20, "GCOM_LINKS")
+server.call_agent_myorder(20, "PEDIDOS")
 
